@@ -1,0 +1,102 @@
+<template>
+  <main class="h-full relative z-20">
+    <div
+      class="rounded-md flex justify-center items-center md:flex-row flex-col h-full gap-14 sm:w-auto w-64 mx-auto"
+    >
+      <div class="">
+        <h2
+          class="flex justify-start items-start p-2 mx-auto dark:text-primary-light text-yellow-600 uppercase cursor-pointer text-3xl"
+        >
+          About Me
+        </h2>
+        <p
+          class="p-4 text-primary-dark dark:text-primary-light font-mono tracking-wide leading-4 max-w-lg rounded-md dark:bg-gray-800 bg-gray-200 h-24 scrollbar-thumb-rounded-lg scrollbar scrollbar-thumb-red-700 scrollbar-track-blue-300 overflow-y-scroll hover:scrollbar-thumb-pink-700"
+        >
+          I'm a dedicated and disciplined full stack developer. I am inspired by IT to
+          create an outstanding output in technology industry <br />
+          I have a 1 year of Experience in the IT industry & can readily deliver to my
+          optimum.
+          <span class="text-xl text-yellow-600 hover:text-yellow-400">.........</span
+          ><button
+            class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-3 py-2 rounded-md m-1"
+          >
+            Read More
+          </button>
+        </p>
+      </div>
+      <div class="max-w-md">
+        <img src="/Franc.png" width="100%" height="100%" alt="" class="rounded-b-full" />
+      </div>
+    </div>
+    <div
+      class="lg:flex justify-center items-center lg:absolute lg:right-20 lg:top-48 rounded-lg lg:bg-primary-light lg:dark:bg-primary-dark bg-green-600 dark:bg-green-700 lg:h-20 lg:w-36 lg:p-3 h-0 w-0 hover:ease-in-out transition-all duration-500 transform hover:shadow-md hover:scale-y-110 translate-y-4 hover:rounded-full"
+    >
+      <div>
+        <svg
+          viewBox="0 0 221 65"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="md:h-8"
+        >
+          <g clip-path="url(#a)">
+            <path
+              fill="currentColor"
+              d="M82.5623 18.5705h7.3017l15.474 24.7415V18.5705h6.741v35.0576h-7.252L89.3025 28.938v24.6901h-6.7402V18.5705ZM142.207 53.628h-6.282v-3.916c-1.429 2.7559-4.339 4.3076-8.015 4.3076-5.822 0-9.603-4.1069-9.603-10.0175V28.3847h6.282v14.3251c0 3.4558 2.146 5.8592 5.362 5.8592 3.524 0 5.974-2.7044 5.974-6.4099V28.3847h6.282V53.628ZM164.064 53.2289l-6.026-8.4144-6.027 8.4144h-6.69l9.296-13.1723-8.58-12.0709h6.843l5.158 7.2641 5.106-7.2641h6.895l-8.632 12.0709 9.295 13.1723h-6.638ZM183.469 20.7726v7.6116h7.149v5.1593h-7.149v12.5311c0 .4208.17.8245.473 1.1223.303.2978.715.4654 1.144.4661h5.532v5.9547h-4.137c-5.617 0-9.293-3.2062-9.293-8.8109V33.5484h-5.056v-5.1642h3.172c1.479 0 2.34-.8639 2.34-2.2932v-5.3184h5.825Z"
+            ></path>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M30.1185 11.5456c-1.8853-3.24168-6.5987-3.24169-8.484 0L1.08737 46.8747c-1.885324 3.2417.47133 7.2938 4.24199 7.2938H21.3695c-1.6112-1.4081-2.2079-3.8441-.9886-5.9341l15.5615-26.675-5.8239-10.0138Z"
+              fill="#80EEC0"
+            ></path>
+            <path
+              d="M43.1374 19.2952c1.5603-2.6523 5.461-2.6523 7.0212 0l17.0045 28.9057c1.5603 2.6522-.39 5.9676-3.5106 5.9676h-34.009c-3.1206 0-5.0709-3.3154-3.5106-5.9676l17.0045-28.9057ZM209.174 53.8005H198.483c0-1.8514.067-3.4526 0-6.0213h10.641c1.868 0 3.353.1001 4.354-.934 1-1.0341 1.501-2.3351 1.501-3.9029 0-1.8347-.667-3.2191-2.002-4.1532-1.301-.9674-2.985-1.4511-5.054-1.4511h-2.601v-5.2539h2.652c1.701 0 3.119-.4003 4.253-1.2009 1.134-.8006 1.701-1.9849 1.701-3.5527 0-1.301-.434-2.3351-1.301-3.1023-.834-.8007-2.001-1.201-3.503-1.201-1.634 0-2.918.4837-3.853 1.4511-.9.9674-1.401 2.1517-1.501 3.5527h-6.254c.133-3.2358 1.251-5.7877 3.352-7.6558 2.135-1.868 4.887-2.8021 8.256-2.8021 2.402 0 4.42.4337 6.055 1.301 1.668.834 2.919 1.9515 3.753 3.3525.867 1.4011 1.301 2.9523 1.301 4.6536 0 1.9681-.551 3.636-1.651 5.0037-1.068 1.3344-2.402 2.235-4.004 2.7021 1.969.4003 3.57 1.3677 4.804 2.9022 1.234 1.5011 1.852 3.4025 1.852 5.7043 0 1.9347-.468 3.7028-1.402 5.304-.934 1.6012-2.301 2.8855-4.103 3.8529-1.768.9674-3.953 1.4511-6.555 1.4511Z"
+              fill="#00DC82"
+            ></path>
+          </g>
+          <defs>
+            <clipPath id="a"><path fill="#fff" d="M0 0h221v65H0z"></path></clipPath>
+          </defs>
+        </svg>
+      </div>
+      <span> </span>
+    </div>
+    <div
+      class="lg:flex justify-center items-center lg:absolute lg:right-20 lg:bottom-7 lg:top-72 rounded-lg lg:dark:bg-primary-dark lg:bg-primary-light lg:h-20 lg:w-36 lg:p-3 h-0 w-0 p-0 hover:ease-in-out transition-all duration-500 transform hover:shadow-md hover:scale-y-110 translate-y-6 hover:rounded-full"
+    >
+      <div>
+        <img src="@/assets/images/logo.png" class="w-10 h-10" alt="" />
+      </div>
+      <span> </span>
+    </div>
+    <!--  <div
+      class="lg:flex justify-center items-center lg:absolute lg:right-40 lg:-bottom-3 lg:top-80 rounded-lg lg:bg-primary-light lg:dark:bg-primary-dark lg:h-20 lg:w-36 lg:p-3 h-0 w-0 p-0 hover:ease-in-out transition-all duration-500 transform hover:shadow-md hover:scale-y-110 translate-y-4 hover:rounded-full"
+    >
+      <div>
+        <svg
+          class="items-center justify-center flex-1 mx-auto mb-20 md:mb-0"
+          xmlns="http://www.w3.org/2000/svg"
+          x="0px"
+          y="0px"
+          width="48"
+          height="48"
+          viewBox="0 0 48 48"
+          style="fill: #000000"
+        >
+          <path fill="#ffd600" d="M6,42V6h36v36H6z"></path>
+          <path
+            fill="#000001"
+            d="M29.538 32.947c.692 1.124 1.444 2.201 3.037 2.201 1.338 0 2.04-.665 2.04-1.585 0-1.101-.726-1.492-2.198-2.133l-.807-.344c-2.329-.988-3.878-2.226-3.878-4.841 0-2.41 1.845-4.244 4.728-4.244 2.053 0 3.528.711 4.592 2.573l-2.514 1.607c-.553-.988-1.151-1.377-2.078-1.377-.946 0-1.545.597-1.545 1.377 0 .964.6 1.354 1.985 1.951l.807.344C36.452 29.645 38 30.839 38 33.523 38 36.415 35.716 38 32.65 38c-2.999 0-4.702-1.505-5.65-3.368L29.538 32.947zM17.952 33.029c.506.906 1.275 1.603 2.381 1.603 1.058 0 1.667-.418 1.667-2.043V22h3.333v11.101c0 3.367-1.953 4.899-4.805 4.899-2.577 0-4.437-1.746-5.195-3.368L17.952 33.029z"
+          ></path>
+        </svg>
+      </div>
+      <span> </span>
+    </div> -->
+  </main>
+</template>
+
+<script>
+export default {};
+</script>
+
+<style></style>

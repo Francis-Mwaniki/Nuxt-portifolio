@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.p-title{
+    font-family: Rubik, sans-serif;
+    @apply text-lg text-center text-white font-semibold;
+}
+.font-lato{
+    font-family: 'Lato', serif;
+    @apply  shadow-lg   font-extrabold bg-green-400;
+}
