@@ -32,14 +32,14 @@
         type="text"
         v-model="name"
         placeholder="Enter Username.."
-        class="font-extrabold dark:text-black text-black py-2 font-mono px-3 outline-black dark:outline-none focus:ring-4 focus:ring-blue-600 rounded-lg"
+        class="font-extrabold text-black py-2 font-mono px-3 outline-black dark:outline-none focus:ring-4 focus:ring-blue-600 rounded-lg"
       />
       <input
         type="Email"
         v-model="email"
         required="required"
         placeholder="Enter Email..."
-        class="text-black dark:text-black font-extrabold font-mono py-2 px-3 outline-black dark:outline-none focus:ring-4 focus:ring-blue-600 rounded-lg"
+        class="text-black font-extrabold font-mono py-2 px-3 outline-black dark:outline-none focus:ring-4 focus:ring-blue-600 rounded-lg"
       />
       <textarea
         required
@@ -47,7 +47,7 @@
         v-model="message"
         cols="30"
         rows="10"
-        class="text-black dark:text-black py-2 font-bold font-mono px-3 outline-black dark:outline-none focus:ring-4 focus:ring-blue-600 rounded-lg sm:w-auto w-60"
+        class="text-black py-2 font-bold font-mono px-3 outline-black dark:outline-none focus:ring-4 focus:ring-blue-600 rounded-lg sm:w-auto w-60"
         placeholder="Enter your message here..."
       ></textarea>
       <input
