@@ -23,7 +23,11 @@
           <div
             class="font-mono font-extrabold p-2 flex justify-center items-center flex-row"
           >
-            <img src="@/assets/images/star.gif" class="w-10 h-10" alt="" />
+            <img
+              src="@/assets/images/star.gif"
+              class="w-10 h-10 rounded-full p-1"
+              alt=""
+            />
             <span class="tabular-nums text-lg mt-2 dark:text-white text-black">{{
               data.rating
             }}</span>
@@ -50,7 +54,11 @@
             </button>
           </div>
           <div class="flex justify-center items-center flex-row">
-            <img src="@/assets/images/teal-sourcecode.gif" alt="" class="w-10 h-10" />
+            <img
+              src="@/assets/images/teal-sourcecode.gif"
+              alt=""
+              class="w-10 h-10 rounded-full"
+            />
             <a :href="data.href" class="flex justify-between items-baseline">
               <h5
                 class="font-mono italic hover:underline font-light dark:text-white text-black"
@@ -77,25 +85,7 @@
           <p
             class="rounded-md p-5 italic font-light font-mono dark:text-ternary-light text-black tracking-wide h-52 scrollbar-thumb-rounded-lg scrollbar dark:bg-black bg-ternary-light dark:scrollbar-thumb-yellow-700 scrollbar-thumb-red-700 scrollbar-track-blue-300 overflow-y-scroll hover:scrollbar-thumb-pink-700"
           >
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, fugiat
-            error tenetur voluptatibus ut deleniti nobis animi dolores vero facere
-            quibusdam soluta maxime praesentium delectus sapiente beatae nesciunt vel ex?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore officiis
-            consequatur libero iure laudantium neque laboriosam? Eveniet eum ducimus,
-            nisi, ipsam sapiente assumenda eaque nobis excepturi dolore, laboriosam dolor.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veniam tenetur
-            architecto doloremque ipsa accusantium, incidunt nesciunt molestiae, ipsam,
-            ratione facilis quidem corporis. Optio cumque officia asperiores molestias
-            eos? Illo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione,
-            fugiat error tenetur voluptatibus ut deleniti nobis animi dolores vero facere
-            quibusdam soluta maxime praesentium delectus sapiente beatae nesciunt vel ex?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab dolore officiis
-            consequatur libero iure laudantium neque laboriosam? Eveniet eum ducimus,
-            nisi, ipsam sapiente assumenda eaque nobis excepturi dolore, laboriosam dolor.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos veniam tenetur
-            architecto doloremque ipsa accusantium, incidunt nesciunt molestiae, ipsam,
-            ratione facilis quidem corporis. Optio cumque officia asperiores molestias
-            eos? Illo.
+            hello there
           </p>
         </div>
       </div>
@@ -111,62 +101,66 @@ export default {
         {
           id: 0,
           title: "MongoDB ",
-          description: "The noSQL Database used for keepings records & documents",
+          description:
+            "With a document data model that maps to how developers think and code and a powerful, unified query API, MongoDB powers faster, more flexible application development.",
           rating: "5.0",
-          date: "August/3rd/2022",
-          img: require("@/assets/images/web-project-1.jpg"),
+          date: "july/3rd/2022",
+          img: require("@/assets/images/mongodb.jpg"),
           stack: ["NodeJs", "MongoDb", "Express"],
           href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
         },
         {
           id: 1,
           title: "Nuxt Js",
-          description: "The no vueJs Framework used for making Universal Apps",
+          description:
+            "Build your next Vue.js application with confidence using Nuxt. An open source framework making web development simple and powerful. Nuxt offers a compelling solution and a great ecosystem to help you ship fullstack Vue apps that are performant and SEO friendly. The flexibility to choose between SSR and SSG is icing on the cake.",
           rating: "5.0",
-          date: "August/3rd/2022",
-          img: require("@/assets/images/web-project-1.jpg"),
-          stack: ["NuxtJs", "MongoDb", "Express", "Composition Api"],
-          href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
+          date: "june/3rd/2022",
+          img: require("@/assets/images/nuxt.jpg"),
+          stack: ["NuxtJs", "Express", "Composition Api"],
+          href: "https://github.com/Francis-Mwaniki/Nuxt-portifolio",
         },
         {
           id: 2,
           title: "Vue Js",
-          description: "The no Js Framework used for making Single Page Apps",
+          description:
+            "Approachable==> Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation. Versatile ==> A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework.",
           rating: "4.5",
-          date: "August/3rd/2022",
-          img: require("@/assets/images/web-project-1.jpg"),
+          date: "April/3rd/2022",
+          img: require("@/assets/images/vuejs.jpg"),
           stack: ["VueJs", "MongoDb", "Express", "NodeJs"],
-          href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
+          href: "https://github.com/Francis-Mwaniki/My--vue-portifolio",
         },
         {
           id: 3,
           title: "Node Js",
           description: "The no One Js runtime used for making servers Apps",
           rating: "5.0",
-          date: "August/3rd/2022",
-          img: require("@/assets/images/web-project-1.jpg"),
+          date: "february/3rd/2022",
+          img: require("@/assets/images/nodejs.png"),
           stack: ["MongoDb", "Express", "Rest Api"],
-          href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
+          href: "https://github.com/Francis-Mwaniki/mongo_db_node_api",
         },
         {
           id: 4,
-          title: "Pinia Js",
-          description: "The no vueJs & NuxtJs Framework used for State Management",
+          title: "Vue Project",
+          description: "The vueJs project for simple questions and answer",
           rating: "5.0",
-          date: "August/3rd/2022",
-          img: require("@/assets/images/web-project-1.jpg"),
-          stack: ["NuxtJs", "MongoDb", "Express", "Composition Api"],
+          date: "may/2nd/2022",
+          img: require("@/assets/images/vuejs.jpg"),
+          stack: ["VueJs", "Express", "Option Api"],
           href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
         },
         {
           id: 5,
           title: "Online Shop",
-          description: "The no vueJs Framework used for making Universal Apps",
+          description:
+            "The no vueJs project used made for Ecommerce. ==>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative",
           rating: "5.0",
-          date: "August/3rd/2022",
-          img: require("@/assets/images/web-project-1.jpg"),
+          date: "July/3rd/2022",
+          img: require("@/assets/images/web-project-2.jpg"),
           stack: ["NuxtJs", "MongoDb", "Express", "Composition Api"],
-          href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
+          href: "https://github.com/Francis-Mwaniki/online-shop",
         },
       ].find((el) => el.id == context.params.id),
     };

@@ -15,13 +15,11 @@
           I'm a dedicated and disciplined full stack developer. I am inspired by IT to
           create an outstanding output in technology industry <br />
           I have a 1 year of Experience in the IT industry & can readily deliver to my
-          optimum.
-          <span class="text-xl text-yellow-600 hover:text-yellow-400">.........</span
-          ><button
-            class="bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 px-3 py-2 rounded-md m-1"
-          >
-            Read More
-          </button>
+          optimum. I enjoy being challenged and engaging with projects that require me to
+          work outside my comfort and knowledge set, as continuing to learn new languages
+          and development techniques are important to me and the success of your
+          organization.
+          <span class="text-xl text-yellow-600 hover:text-yellow-400">.........</span>
         </p>
       </div>
       <div class="max-w-md">

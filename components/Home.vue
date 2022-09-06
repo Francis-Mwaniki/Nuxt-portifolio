@@ -28,19 +28,19 @@
       ></video>
     </section>
     <h1
-      class="flex justify-start items-center border-b-2 border-red-700 sm:mx-20 mx-auto space-x-3 md:space-x-12 relative z-20 md:p-2 p-1 m-1 inset-x-0 text-white font-extrabold md:tracking-wider md:leading-5 uppercase"
+      class="flex justify-start items-center border-b-2 border-yellow-700 sm:mx-20 mx-auto space-x-3 md:space-x-12 relative z-20 md:p-2 p-1 m-1 inset-x-0 text-white font-extrabold md:tracking-wider md:leading-5 uppercase"
     >
       <span class="">
         <img src="@/assets/images/work.png" class="h-11 w-11" alt=""
       /></span>
       <span class="uppercase font-mono flex justify-center items-center flow-row">
-        Work <span><img src="@/assets/images/sourcecode.png" alt="" /></span
+        Work Samples<span><img src="@/assets/images/sourcecode.png" alt="" /></span
       ></span>
     </h1>
     <!-- Display Projects -->
 
     <div class="flex justify-center items-center">
-      <Projects />
+      <Screenshot />
     </div>
     <!-- Developer Intro -->
     <section
@@ -104,8 +104,8 @@ import AboutMe from "~/pages/AboutMe.vue";
 import About from "./About.vue";
 import Contact from "./Contact.vue";
 import Hobbies from "./Hobbies.vue";
-import Projects from "~/pages/work/Projects.vue";
 import Footer from "./Footer.vue";
+import Screenshot from "./Screenshot.vue";
 
 /* import Nav from "./Nav.vue"; */
 export default {
@@ -116,8 +116,8 @@ export default {
     About,
     Contact,
     Hobbies,
-    Projects,
     Footer,
+    Screenshot,
   },
 };
 </script>

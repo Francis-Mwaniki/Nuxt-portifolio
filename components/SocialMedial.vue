@@ -6,7 +6,7 @@
       :key="socialMedia.Simg"
     >
       <!-- Facebook -->
-      <nuxt-link :to="socialMedia.reference">
+      <nuxt-link to="https://www.facebook.com/profile.php?id=100073476542957">
         <svg
           class="text-black"
           xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +25,7 @@
         </svg>
       </nuxt-link>
       <!-- Github -->
-      <nuxt-link :to="socialMedia.reference">
+      <nuxt-link to="https://github.com/Francis-Mwaniki">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -41,7 +41,9 @@
         </svg>
       </nuxt-link>
       <!-- LinkedLn -->
-      <nuxt-link :to="socialMedia.reference">
+      <nuxt-link
+        to="https://www.linkedin.com/in/%D2%93%CA%80%E1%B4%80%C9%B4%E1%B4%84%C9%AAs-%E1%B4%8D%E1%B4%A1%E1%B4%80%C9%B4%C9%AA%E1%B4%8B%C9%AA-378603220"
+      >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"
@@ -59,7 +61,7 @@
         </svg>
       </nuxt-link>
       <!-- Twitter -->
-      <nuxt-link :to="socialMedia.reference">
+      <nuxt-link to="https://mobile.twitter.com/notifications">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           x="0px"

@@ -10,7 +10,6 @@
       <div
         class="dark:bg-green-900 bg-gray-100 p-2 rounded-md hover:ease-in-out transition-all duration-500 transform hover:shadow-md hover:scale-95 sm:hover:scale-105 sm:w-full w-auto mx-auto"
         v-for="project in projectData"
-        :key="project.langProjectName"
       >
         <nuxt-link :to="`/work/${project.id}`">
           <div class="relative z-20">
@@ -38,63 +37,56 @@
 import { ref } from "vue";
 export default {
   setup() {
-    let projectData = ref([
-      {
-        id: 0,
-        langProjectName: "VueJs",
-        projectContent:
-          "A   js framework for building universal Apps Maybe you can try it out!!",
-        img: require("@/assets/images/mobile-project-1.jpg"),
-      },
-      {
-        id: 1,
-        langProjectName: "NuxtJs",
-        projectContent:
-          "A vue js framework for building universal Apps Maybe you can try it out!!!",
-        img: require("@/assets/images/mobile-project-2.jpg"),
-      },
-      {
-        id: 2,
-        langProjectName: "Js",
-        projectContent:
-          "A cross platform programming language Maybe you can try it out!!",
-        img: require("@/assets/images/ui-project-1.jpg"),
-      },
-      {
-        id: 3,
-        langProjectName: "Pinia",
-        projectContent: "A vue js new State Management Maybe you can try it out!!",
-        img: require("@/assets/images/web-project-1.jpg"),
-      },
-      {
-        id: 4,
-        langProjectName: "NodeJs",
-        projectContent: "A backend runtime env Maybe you can try it out!!",
-        img: require("@/assets/images/web-project-2.jpg"),
-      },
-      {
-        id: 5,
-        langProjectName: "MongoDB",
-        projectContent: "A Doc oriented Database Maybe you can try it out!!",
-        img: require("@/assets/images/web-project-1.jpg"),
-      },
-    ]);
-
-    return { projectData };
+    return {};
   },
-  /* asyncData() {
+  asyncData() {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve({
-         
+          projectData: ref([
+            {
+              id: 0,
+              langProjectName: "MongoDB",
+              projectContent: "The noSQL Database used for keepings records & documents",
+              img: require("@/assets/images/mongodb.jpg"),
+            },
+            {
+              id: 1,
+              langProjectName: "NuxtJs",
+              projectContent: "The no vueJs Framework used for making Universal Apps",
+              img: require("@/assets/images/nuxt.jpg"),
+            },
+            {
+              id: 2,
+              langProjectName: "VueJs",
+              projectContent: "The no Js Framework used for making Single Page Apps",
+              img: require("@/assets/images/vuejs.jpg"),
+            },
+            {
+              id: 3,
+              langProjectName: "NodeJs",
+              projectContent: "The no One Js runtime used for making servers Apps",
+              img: require("@/assets/images/nodejs.png"),
+            },
+            {
+              id: 4,
+              langProjectName: "Vue Js",
+              projectContent: "The vueJs project for simple questions and answer",
+              img: require("@/assets/images/vuejs.jpg"),
+            },
+            {
+              id: 5,
+              langProjectName: "Ecommerce Shop",
+              projectContent: "The no vueJs project used made for Ecommerce",
+              img: require("@/assets/images/web-project-2.jpg"),
+            },
+          ]),
         });
       }, 500);
     });
-  }, */
-  components: {},
-  mounted() {
-    alert("Hover around & click the card to view more about the project");
   },
+  components: {},
+  mounted() {},
 };
 </script>
 
