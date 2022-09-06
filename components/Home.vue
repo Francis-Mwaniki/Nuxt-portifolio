@@ -90,6 +90,7 @@
         />
       </div>
     </section>
+    <Projects />
     <About />
     <Contact />
     <Hobbies />
@@ -106,6 +107,7 @@ import Contact from "./Contact.vue";
 import Hobbies from "./Hobbies.vue";
 import Footer from "./Footer.vue";
 import Screenshot from "./Screenshot.vue";
+import Projects from "~/pages/work/Projects.vue";
 
 /* import Nav from "./Nav.vue"; */
 export default {
@@ -118,6 +120,7 @@ export default {
     Hobbies,
     Footer,
     Screenshot,
+    Projects,
   },
 };
 </script>
