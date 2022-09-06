@@ -94,76 +94,81 @@
 </template>
 
 <script>
+import { ref } from "vue";
 export default {
   asyncData(context) {
-    return {
-      data: [
-        {
-          id: 0,
-          title: "MongoDB ",
-          description:
-            "With a document data model that maps to how developers think and code and a powerful, unified query API, MongoDB powers faster, more flexible application development.",
-          rating: "5.0",
-          date: "july/3rd/2022",
-          img: require("@/assets/images/mongodb.jpg"),
-          stack: ["NodeJs", "MongoDb", "Express"],
-          href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
-        },
-        {
-          id: 1,
-          title: "Nuxt Js",
-          description:
-            "Build your next Vue.js application with confidence using Nuxt. An open source framework making web development simple and powerful. Nuxt offers a compelling solution and a great ecosystem to help you ship fullstack Vue apps that are performant and SEO friendly. The flexibility to choose between SSR and SSG is icing on the cake.",
-          rating: "5.0",
-          date: "june/3rd/2022",
-          img: require("@/assets/images/nuxt.jpg"),
-          stack: ["NuxtJs", "Express", "Composition Api"],
-          href: "https://github.com/Francis-Mwaniki/Nuxt-portifolio",
-        },
-        {
-          id: 2,
-          title: "Vue Js",
-          description:
-            "Approachable==> Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation. Versatile ==> A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework.",
-          rating: "4.5",
-          date: "April/3rd/2022",
-          img: require("@/assets/images/vuejs.jpg"),
-          stack: ["VueJs", "MongoDb", "Express", "NodeJs"],
-          href: "https://github.com/Francis-Mwaniki/My--vue-portifolio",
-        },
-        {
-          id: 3,
-          title: "Node Js",
-          description: "The no One Js runtime used for making servers Apps",
-          rating: "5.0",
-          date: "february/3rd/2022",
-          img: require("@/assets/images/nodejs.png"),
-          stack: ["MongoDb", "Express", "Rest Api"],
-          href: "https://github.com/Francis-Mwaniki/mongo_db_node_api",
-        },
-        {
-          id: 4,
-          title: "Vue Project",
-          description: "The vueJs project for simple questions and answer",
-          rating: "5.0",
-          date: "may/2nd/2022",
-          img: require("@/assets/images/vuejs.jpg"),
-          stack: ["VueJs", "Express", "Option Api"],
-          href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
-        },
-        {
-          id: 5,
-          title: "Online Shop",
-          description:
-            "The no vueJs project used made for Ecommerce. ==>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative",
-          rating: "5.0",
-          date: "July/3rd/2022",
-          img: require("@/assets/images/web-project-2.jpg"),
-          stack: ["NuxtJs", "MongoDb", "Express", "Composition Api"],
-          href: "https://github.com/Francis-Mwaniki/online-shop",
-        },
-      ].find((el) => el.id == context.params.id),
-    };
+    return new Promise((resolve, reject) => {
+      setTimeout(() => {
+        resolve({
+          data: [
+            {
+              id: 0,
+              title: "MongoDB ",
+              description:
+                "With a document data model that maps to how developers think and code and a powerful, unified query API, MongoDB powers faster, more flexible application development.",
+              rating: "5.0",
+              date: "july/3rd/2022",
+              img: require("@/assets/images/mongodb.jpg"),
+              stack: ["NodeJs", "MongoDb", "Express"],
+              href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
+            },
+            {
+              id: 1,
+              title: "Nuxt Js",
+              description:
+                "Build your next Vue.js application with confidence using Nuxt. An open source framework making web development simple and powerful. Nuxt offers a compelling solution and a great ecosystem to help you ship fullstack Vue apps that are performant and SEO friendly. The flexibility to choose between SSR and SSG is icing on the cake.",
+              rating: "5.0",
+              date: "june/3rd/2022",
+              img: require("@/assets/images/nuxt.jpg"),
+              stack: ["NuxtJs", "Express", "Composition Api"],
+              href: "https://github.com/Francis-Mwaniki/Nuxt-portifolio",
+            },
+            {
+              id: 2,
+              title: "Vue Js",
+              description:
+                "Approachable==> Builds on top of standard HTML, CSS and JavaScript with intuitive API and world-class documentation. Versatile ==> A rich, incrementally adoptable ecosystem that scales between a library and a full-featured framework.",
+              rating: "4.5",
+              date: "April/3rd/2022",
+              img: require("@/assets/images/vuejs.jpg"),
+              stack: ["VueJs", "MongoDb", "Express", "NodeJs"],
+              href: "https://github.com/Francis-Mwaniki/My--vue-portifolio",
+            },
+            {
+              id: 3,
+              title: "Node Js",
+              description: "The no One Js runtime used for making servers Apps",
+              rating: "5.0",
+              date: "february/3rd/2022",
+              img: require("@/assets/images/nodejs.png"),
+              stack: ["MongoDb", "Express", "Rest Api"],
+              href: "https://github.com/Francis-Mwaniki/mongo_db_node_api",
+            },
+            {
+              id: 4,
+              title: "Vue Project",
+              description: "The vueJs project for simple questions and answer",
+              rating: "5.0",
+              date: "may/2nd/2022",
+              img: require("@/assets/images/vuejs.jpg"),
+              stack: ["VueJs", "Express", "Option Api"],
+              href: "https://github.com/Francis-Mwaniki/Mongo_Nodejs",
+            },
+            {
+              id: 5,
+              title: "Online Shop",
+              description:
+                "The no vueJs project used made for Ecommerce. ==>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app. Consumers find a product of interest by visiting the website of the retailer directly or by searching among alternative",
+              rating: "5.0",
+              date: "July/3rd/2022",
+              img: require("@/assets/images/web-project-2.jpg"),
+              stack: ["NuxtJs", "MongoDb", "Express", "Composition Api"],
+              href: "https://github.com/Francis-Mwaniki/online-shop",
+            },
+          ].find((el) => el.id == context.params.id),
+        });
+      }, 500);
+    });
   },
 };
 </script>

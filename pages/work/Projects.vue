@@ -43,7 +43,7 @@ export default {
     return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve({
-          projectData: ref([
+          projectData: [
             {
               id: 0,
               langProjectName: "MongoDB",
@@ -80,7 +80,7 @@ export default {
               projectContent: "The no vueJs project used made for Ecommerce",
               img: require("@/assets/images/web-project-2.jpg"),
             },
-          ]),
+          ],
         });
       }, 500);
     });
