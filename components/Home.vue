@@ -40,6 +40,9 @@
     <!-- Display Projects -->
 
     <div class="flex justify-center items-center">
+      <Projects />
+    </div>
+    <div class="flex justify-center items-center">
       <Screenshot />
     </div>
     <!-- Developer Intro -->
@@ -90,7 +93,6 @@
         />
       </div>
     </section>
-    <Projects />
     <About />
     <Contact />
     <Hobbies />
