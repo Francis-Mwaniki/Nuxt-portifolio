@@ -85,7 +85,7 @@
           <p
             class="rounded-md p-5 italic font-light font-mono dark:text-ternary-light text-black tracking-wide h-52 scrollbar-thumb-rounded-lg scrollbar dark:bg-black bg-ternary-light dark:scrollbar-thumb-yellow-700 scrollbar-thumb-red-700 scrollbar-track-blue-300 overflow-y-scroll hover:scrollbar-thumb-pink-700"
           >
-            hello there
+            {{ data.description }}
           </p>
         </div>
       </div>
