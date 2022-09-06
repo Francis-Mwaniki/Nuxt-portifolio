@@ -28,7 +28,7 @@
       ></video>
     </section>
     <h1
-      class="flex justify-start items-center border-b-2 border-yellow-700 sm:mx-20 mx-auto space-x-3 md:space-x-12 relative z-20 md:p-2 p-1 m-1 inset-x-0 text-white font-extrabold md:tracking-wider md:leading-5 uppercase"
+      class="flex justify-start items-center border-b-2 border-red-700 sm:mx-20 mx-auto space-x-3 md:space-x-12 relative z-20 md:p-2 p-1 m-1 inset-x-0 text-white font-extrabold md:tracking-wider md:leading-5 uppercase"
     >
       <span class="">
         <img src="@/assets/images/work.png" class="h-11 w-11" alt=""
@@ -107,9 +107,8 @@ import AboutMe from "~/pages/AboutMe.vue";
 import About from "./About.vue";
 import Contact from "./Contact.vue";
 import Hobbies from "./Hobbies.vue";
-import Footer from "./Footer.vue";
-import Screenshot from "./Screenshot.vue";
 import Projects from "~/pages/work/Projects.vue";
+import Footer from "./Footer.vue";
 
 /* import Nav from "./Nav.vue"; */
 export default {
@@ -120,9 +119,8 @@ export default {
     About,
     Contact,
     Hobbies,
-    Footer,
-    Screenshot,
     Projects,
+    Footer,
   },
 };
 </script>
