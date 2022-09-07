@@ -1,5 +1,26 @@
 <template>
   <main class="relative z-20 sm:pt-14 pt-8 inset-0">
+    <h2
+      class="flex justify-start items-start p-2 mx-auto dark:text-primary-light text-yellow-600 uppercase cursor-pointer text-3xl"
+    >
+      Projects
+    </h2>
+    <div
+      class="flex rounded-lg border-l-4 border-red-800 justify-center mx-auto items-center h-20 max-w-max inset-x-0 relative z-30 bg-yellow-300 top-1/2 bottom-1/2"
+    >
+      <h2 class="flex justify-center items-center p-1 mx-auto">
+        <span>
+          <strong>Tip! </strong>Click the card or individual project for more info!</span
+        >
+      </h2>
+      <div class="flex justify-end items-end">
+        <button
+          class="flex justify-center items-center h-10 w-10 bg-black text-white p-1 rounded-full"
+        >
+          X
+        </button>
+      </div>
+    </div>
     <div class="">
       <Loading />
     </div>
@@ -53,13 +74,13 @@ export default {
             {
               id: 1,
               langProjectName: "NuxtJs",
-              projectContent: "The no vueJs Framework used for making Universal Apps",
+              projectContent: "The no 1 vueJs Framework used for making Universal Apps",
               img: require("@/assets/images/nuxt.jpg"),
             },
             {
               id: 2,
               langProjectName: "VueJs",
-              projectContent: "The no Js Framework used for making Single Page Apps",
+              projectContent: "The no 1 Js Framework used for making Single Page Apps",
               img: require("@/assets/images/vuejs.jpg"),
             },
             {
@@ -77,7 +98,7 @@ export default {
             {
               id: 5,
               langProjectName: "Ecommerce Shop",
-              projectContent: "The no vueJs project used made for Ecommerce",
+              projectContent: "The vueJs project  made for Ecommerce",
               img: require("@/assets/images/web-project-2.jpg"),
             },
           ],

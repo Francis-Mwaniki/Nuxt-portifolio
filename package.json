@@ -22,8 +22,11 @@
     "webpack": "^4.46.0"
   },
   "devDependencies": {
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
     "@nuxt/types": "^2.15.8",
     "@nuxt/typescript-build": "^2.1.0",
+    "@nuxtjs/fontawesome": "^1.1.2",
     "@nuxtjs/google-fonts": "^3.0.0-0",
     "@nuxtjs/tailwindcss": "^4.2.1",
     "postcss": "^8.4.4",

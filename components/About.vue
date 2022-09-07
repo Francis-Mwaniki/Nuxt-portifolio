@@ -7,10 +7,10 @@
         <h2
           class="flex justify-start items-start p-2 mx-auto dark:text-primary-light text-yellow-600 uppercase cursor-pointer text-3xl"
         >
-          About Me
+          Who i'm I?
         </h2>
         <p
-          class="p-4 text-primary-dark dark:text-primary-light font-mono tracking-wide leading-4 max-w-lg rounded-md dark:bg-gray-800 bg-gray-200 h-24 scrollbar-thumb-rounded-lg scrollbar scrollbar-thumb-red-700 scrollbar-track-blue-300 overflow-y-scroll hover:scrollbar-thumb-pink-700"
+          class="p-4 text-primary-dark dark:text-primary-light font-mono tracking-wide leading-4 max-w-lg rounded-md dark:bg-gray-800 bg-gray-200 h-auto scrollbar-thumb-rounded-lg scrollbar scrollbar-thumb-red-700 scrollbar-track-blue-300 overflow-y-scroll hover:scrollbar-thumb-pink-700"
         >
           I'm a dedicated and disciplined full stack developer. I am inspired by IT to
           create an outstanding output in technology industry <br />

@@ -2,16 +2,6 @@
   <nav
     class="flex justify-center items-center fixed mx-auto top-0 sm:top-0 sm:h-20 px-2 right-0 sm:right-1 gap-5 sm:rounded-lg sm:w-auto w-full dark:bg-green-900 bg-green-100 sm:ml-2"
   >
-    <div
-      class="hidden sm:flex justify-start items-start p-2 font-mono rounded-3xl dark:bg-green-900 bg-primary-light leading-6 dark:text-white text-black text-xs md:text-lg sm:mx-auto mx-5"
-    >
-      <span class="italic text-yellow-400 font-semibold uppercase">Francis-</span
-      ><span
-        class="font-extrabold text-blue-400 italic tracking-wide leading-6 uppercase font-mono hover:ease-in-out transition-all duration-500 transform hover:shadow-xl hover:scale-y-110"
-      >
-        Mwaniki</span
-      >
-    </div>
     <!-- Navigation Links -->
     <div
       class="md:flex justify-end items-center md:space-x-2 gap-2 dark:text-black text-black md:px-4 hidden md:uppercase lowercase p-title"
@@ -21,8 +11,8 @@
         v-for="nav in navs"
         :key="nav.DirName"
       >
-        <span
-          ><img :src="nav.Nimg" class="h-10 w-10 p-1 dark:text-white text-black" alt=""
+        <span>
+          <img :src="nav.Nimg" class="h-10 w-10 dark:text-white text-black" alt=""
         /></span>
         <Nuxt-Link
           :to="nav.href"
@@ -76,11 +66,7 @@
         >
           <div class="flex justify-start flex-row items-start">
             <div class="">
-              <img
-                :src="nav.Nimg"
-                class="h-10 w-10 p-1 dark:text-white text-black"
-                alt=""
-              />
+              <img :src="nav.Nimg" class="h-10 w-10 dark:text-white text-black" alt="" />
             </div>
             <Nuxt-Link :to="nav.href" class="mt-2 font-mono uppercase">{{
               nav.DirName
@@ -108,17 +94,17 @@ export default {
       },
       {
         href: "/AboutMe",
-        DirName: "About Me",
+        DirName: "About",
         Nimg: require("@/assets/images/abouti.png"),
       },
       {
         href: "/work/Projects",
-        DirName: "Work Projects",
+        DirName: "Projects",
         Nimg: require("@/assets/images/project.png"),
       },
       {
         href: "/ContactMe",
-        DirName: "Contact Me",
+        DirName: "Contact",
         Nimg: require("@/assets/images/contacti.png"),
       },
     ]);

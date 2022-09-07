@@ -49,7 +49,16 @@ export default {
         effect: true,
       },
     ],
+    "@nuxtjs/fontawesome",
   ],
+  fontawesome: {
+    component: "Fa",
+    suffix: false,
+    icons: {
+      solid: true,
+      brands: true,
+    },
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [

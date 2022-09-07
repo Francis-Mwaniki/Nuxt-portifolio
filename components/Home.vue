@@ -3,29 +3,24 @@
   <!-- Starter Image -->
   <main class="relative z-20">
     <Loading />
-    <img
-      src="../assets/pics/mwaniki1.jpeg"
-      class="rounded-full p-1 relative z-20 h-24 w-20"
-      alt=""
-    />
     <!--     <Nav /> -->
     <!-- Background Image -->
     <section class="">
-      <!-- <img
+      <img
         src="../assets/pics/heros.jpg"
         alt="pic"
         width="100%"
         class="absolute object-cover -top-10 bottom-0 inset-x-0"
         style="height: 100%"
-      /> -->
-      <video
+      />
+      <!--  <video
         src="../assets/pics/Lines.mp4"
         class="object-cover absolute inset-x-0"
         autoplay="autoplay"
         muted="muted"
         loop="loop"
         style="top: 0px; height: 100%"
-      ></video>
+      ></video> -->
     </section>
     <h1
       class="flex justify-start items-center border-b-2 border-red-700 sm:mx-20 mx-auto space-x-3 md:space-x-12 relative z-20 md:p-2 p-1 m-1 inset-x-0 text-white font-extrabold md:tracking-wider md:leading-5 uppercase"
@@ -33,21 +28,22 @@
       <span class="">
         <img src="@/assets/images/work.png" class="h-11 w-11" alt=""
       /></span>
-      <span class="uppercase font-mono flex justify-center items-center flow-row">
-        Work Samples<span><img src="@/assets/images/sourcecode.png" alt="" /></span
-      ></span>
     </h1>
     <!-- Display Projects -->
-
-    <div class="flex justify-center items-center">
-      <Projects />
-    </div>
     <div class="flex justify-center items-center">
       <Screenshot />
     </div>
+    <div class="flex justify-center items-center">
+      <Projects />
+    </div>
     <!-- Developer Intro -->
+    <h2
+      class="flex justify-start pl-5 items-start mx-auto dark:text-primary-light relative z-20 text-yellow-600 uppercase cursor-pointer text-3xl"
+    >
+      About Me
+    </h2>
     <section
-      class="flex md:flex-row flex-col flex-wrap justify-center gap-20 items-center pt-12 sm:mt-11 mt-16 relative z-20 dark:text-white text-black sm:h-auto h-5/6 dark:bg-ternary-dark bg-ternary-light mx-auto max-w-full space-x-4 p-6 rounded-md"
+      class="flex md:flex-row flex-col flex-wrap justify-center gap-5 items-center pt-2 sm:mt-4 mt-3 relative z-20 dark:text-white text-black sm:h-auto h-5/6 dark:bg-ternary-dark bg-ternary-light mx-auto max-w-full space-x-4 p-2 rounded-md"
     >
       <div
         class="dark:bg-gray-700 bg-gray-200 p-6 sm:max-w-2xl max-w-3xl sm:h-44 h-full rounded-md mx-auto"
@@ -79,7 +75,7 @@
                 src="@/assets/pics/download.gif"
                 class="h-7 w-7 rounded-full"
                 alt=""
-              /><span class="">CV</span>
+              /><span class="px-1"> CV</span>
             </a>
           </button>
         </div>
@@ -121,6 +117,9 @@ export default {
     Hobbies,
     Projects,
     Footer,
+  },
+  mounted() {
+    alert("Navigate to Projects Navigation Bar to View Projects!!");
   },
 };
 </script>
