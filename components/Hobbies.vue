@@ -6,7 +6,7 @@
       Hobbies
     </h2>
     <section
-      class="flex md:flex-row flex-col flex-wrap justify-center gap-20 items-center pt-12 sm:mt-1 mt-3 relative z-20 text-white sm:h-auto h-full dark:bg-ternary-dark bg-gray-200 mx-auto max-w-full space-x-4 p-1 rounded-md"
+      class="flex md:flex-row flex-col flex-wrap justify-center gap-5 items-center pt-12 sm:mt-1 mt-3 relative z-20 text-white sm:h-auto h-full dark:bg-ternary-dark bg-gray-200 mx-auto max-w-full space-x-4 p-1 rounded-md"
     >
       <div
         class="dark:bg-green-700 bg-gray-300 p-6 sm:max-w-2xl max-w-3xl sm:h-44 h-full rounded-md mx-auto flex justify-center items-center"
@@ -23,7 +23,7 @@
           </div>
         </h2>
       </div>
-      <div class="">
+      <div class="mx-auto sm:pr-2 pr-4">
         <img
           src="@/assets/images/green-page.jpg"
           width="100%"

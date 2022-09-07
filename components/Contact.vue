@@ -2,7 +2,7 @@
   <main class="relative z-20 flex justify-center items-center md:flex-row flex-col">
     <div
       v-if="sent"
-      class="flex rounded-lg border-l-2 border-blue-800 justify-center items-center h-20 max-w-lg inset-x-0 relative z-30 bg-yellow-300 top-1/2 bottom-1/2"
+      class="flex rounded-lg border-l-2 border-blue-800 justify-center items-center h-20 max-w-lg inset-x-0 sm:fixed mx-auto relative z-30 bg-yellow-300 top-1/2 bottom-1/2"
     >
       <h2 class="flex justify-center items-center p-1 mx-auto">
         {{ name }} Thank you. message was sent successfully!!
